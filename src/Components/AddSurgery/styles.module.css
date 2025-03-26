@@ -45,14 +45,12 @@ h2 {
     box-shadow: 0 0 8px rgba(0, 191, 255, 0.5);
 }
 
-/* Button container to align buttons side by side */
 .buttonContainer {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
 
-/* Style for both buttons */
 .submitButton,
 .cancelButton {
     flex: 1;

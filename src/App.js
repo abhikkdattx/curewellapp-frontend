@@ -1,21 +1,17 @@
 import './App.css';
-import Navbar from './Components/Navbar';
 import AddDoctorPage from './Pages/AddDoctorPage';
-import DoctorPage from './Pages/ViewDoctorPage';
 import LoginPage from './Pages/LoginPage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ProtectedRoute from './routes/ProtectedRoute';
 import RegisterPage from './Pages/RegistrationPage';
 import ViewDoctorPage from './Pages/ViewDoctorPage';
 import UpdateViewDocPage from './Pages/UpdateViewDocPage';
-import SpecializationPage from './Pages/ViewSpecializationPage';
 import AddSpecializationPage from './Pages/AddSpecializationPage';
 import ViewDocSpecializationPage from './Pages/ViewDocSpecializationPage';
 import ViewSurgeryPage from './Pages/ViewSurgeryPage';
 import ViewSpecializationPage from './Pages/ViewSpecializationPage';
 import AddSurgeryPage from './Pages/AddSurgeryPage';
 import EditSurgeryPage from './Pages/EditSurgeryPage';
-import SearchDoctorPage from './Pages/SearchDoctorPage';
 
 function App() {
   return (
