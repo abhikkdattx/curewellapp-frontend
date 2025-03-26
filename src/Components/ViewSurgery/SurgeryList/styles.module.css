@@ -1,0 +1,16 @@
+.editButton {
+    background-color: rgb(205, 223, 38);
+    color: black;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+}
+
+.editButton:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+}

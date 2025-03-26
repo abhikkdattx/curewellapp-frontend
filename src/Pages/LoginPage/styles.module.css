@@ -1,0 +1,124 @@
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(circle, #1a1a1a, #2b2b2b, #3d3d3d);
+}
+
+.card {
+    background: #1a1a1a;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #f1f1f1;
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: #cfcfcf;
+    margin-bottom: 1.5rem;
+}
+
+.inputGroup {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.inputField {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #444;
+    background: #262626;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.inputField:focus {
+    border-color: #0088ff;
+    outline: none;
+}
+
+.inputError {
+    border-color: red !important;
+}
+
+.error {
+    color: red;
+    font-size: 0.85rem;
+    margin-top: 5px;
+}
+
+.loginButton {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #88929a;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.loginButton:hover {
+    background: #515456;
+}
+
+.alertSuccess {
+    background: #155724;
+    color: #d4edda;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.alertError {
+    background: #721c24;
+    color: #f8d7da;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.loginText {
+    font-size: 0.9rem;
+    color: #cfcfcf;
+    margin-top: 1rem;
+}
+
+.loginLink {
+    color: #0088ff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.loginLink:hover {
+    color: #005bb5;
+    text-decoration: underline;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

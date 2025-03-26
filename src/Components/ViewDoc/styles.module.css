@@ -1,0 +1,85 @@
+.viewDoctorsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #121212;
+}
+
+.wrapper {
+    background: #1e1e1e;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.btnPrimary {
+    background: #ffffff;
+    color: black;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.btnPrimary:hover {
+    background: #e0e0e0;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #2a2a2a;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    color: white;
+}
+
+th {
+    background: #333;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background: #252525;
+}
+
+tr:hover {
+    background: #383838;
+}
+
+p {
+    color: #bbbbbb;
+    font-size: 16px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

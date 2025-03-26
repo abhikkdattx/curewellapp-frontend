@@ -1,0 +1,137 @@
+.pageWrapper {
+    background-color: #121212;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.header {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.alertSuccess {
+    color: green;
+    background-color: #d4edda;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.alertError {
+    color: red;
+    background-color: #f8d7da;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tableContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.table {
+    width: 90%;
+    background: #232323;
+    color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.1);
+}
+
+.table thead {
+    background-color: #007bff;
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #444;
+}
+
+.table tbody tr:hover {
+    background-color: #333;
+}
+
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.modalContent {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.2);
+    width: 400px;
+    text-align: center;
+}
+
+.modalButtons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    border-radius: 6px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.btn-light {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.btn-light:hover {
+    background-color: #e1e1e1;
+}
+
+.cancelWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

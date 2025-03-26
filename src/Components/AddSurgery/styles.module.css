@@ -1,0 +1,109 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.wrapper {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 80px auto;
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2);
+    font-family: 'Arial', sans-serif;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.form-control::placeholder {
+    color: #bbb;
+}
+
+.form-control:focus {
+    border-color: #00bfff;
+    box-shadow: 0 0 8px rgba(0, 191, 255, 0.5);
+}
+
+/* Button container to align buttons side by side */
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Style for both buttons */
+.submitButton,
+.cancelButton {
+    flex: 1;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.submitButton:hover,
+.cancelButton:hover {
+    background-color: #dcdbdb;
+    color: #fff;
+}
+
+.text-danger {
+    color: #ff6b6b;
+    font-size: 14px;
+}
+
+.alert {
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.alert-success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.alert-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Teko:wght@300..700&family=Tektur:wght@400..900&display=swap');
+*{
+  font-family: "Crimson Text", serif;
+
+}
+
+.wrapper img{
+  height:100%;
+  width:100%;
+  object-fit:contain;
+}
